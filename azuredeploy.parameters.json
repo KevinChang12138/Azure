@@ -1,0 +1,28 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "ChangYuanHao"
+    },
+
+    "adminPassword": {
+      "value": "123cyh"
+    },
+
+    "vmCounts": {
+            "value": 2,
+            "metadata": {
+                "description": "Number of VMs you want to create."
+            }
+    },
+
+    "dnsLabelPrefix": {
+      "value": "cyhvm"
+    },
+
+    "CentOSVersion": {
+      "value": "6.5"
+    }
+  }
+}
